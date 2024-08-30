@@ -7,6 +7,8 @@ public class Bulbasaur {
         // TODO: Initialize id and level with appropriate values
        this.id = id;
        this.level = level;
+       this.id = 1;
+       this.level = 1;
 
 
     }
@@ -62,7 +64,7 @@ public class Bulbasaur {
     public String toString() {
         // TODO: Implement this method
         // Return a string representation of the Bulbasaur object
-        return "The current level for the pokemon is " + this.level + ", it's ID is " + this.id +", and its name is " + this.getName();
+        return "Level: " + this.level + ", ID: " + this.id;
     }
 
     // equals method
